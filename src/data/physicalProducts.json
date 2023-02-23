@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Kubota excavator",
+    "worksWith": [4, 5, 6],
+    "purpose": [1, 2, 3],
+    "category": ["Construction", "Heavy Equipment"]
+  },
+  {
+    "id": 2,
+    "name": "Caterpillar bulldozer",
+    "worksWith": [1, 3, 7],
+    "purpose": [4, 5, 6],
+    "category": ["Construction", "Heavy Equipment"]
+  },
+  {
+    "id": 3,
+    "name": "Excavator Bucket",
+    "worksWith": [1, 3],
+    "purpose": [1, 3],
+    "category": ["Construction", "Excavation", "Attachments"]
+  },
+  {
+    "id": 4,
+    "name": "Excavator Rock Hammer",
+    "worksWith": [1],
+    "purpose": [6],
+    "category": ["Construction", "Excavation", "Attachments"]
+  },
+  {
+    "id": 5,
+    "name": "24 Inch Trenching Bucket",
+    "worksWith": [1],
+    "purpose": [1],
+    "category": ["Construction", "Excavation", "Attachments"]
+  },
+  {
+    "id": 6,
+    "name": "CAT Skid Steer",
+    "worksWith": [3, 7],
+    "purpose": [12, 13, 14, 15],
+    "category": ["Construction", "Heavy Equipment"]
+  },
+
+  {
+    "id": 7,
+    "name": "Skid Steer Bucket",
+    "worksWith": [6],
+    "purpose": [12, 13, 14, 15],
+    "category": ["Construction", "Excavation", "Attachments"]
+  }
+]

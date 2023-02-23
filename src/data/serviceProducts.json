@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Trenching",
+    "description": "Excavation of narrow, long, and deep ditches",
+    "category": ["Construction", "Excavation"],
+    "worksWith": [1, 3, 5],
+    "unit": "Cubic Yard",
+    "price": 68
+  },
+  {
+    "id": 2,
+    "name": "Water Line Installation",
+    "description": "Installation of underground water pipes",
+    "category": ["Construction", "Plumbing"],
+    "worksWith": [1, 2, 4],
+    "unit": "Linear Foot",
+    "price": 34
+  },
+  {
+    "id": 3,
+    "name": "Gas Line Trenching",
+    "description": "Excavation of trenches for gas pipelines",
+    "category": ["Construction", "Excavation"],
+    "worksWith": [1, 3, 5],
+    "unit": "Cubic Yard",
+    "price": 72
+  },
+  {
+    "id": 4,
+    "name": "Landscaping",
+    "description": "Design, installation, and maintenance of landscapes",
+    "category": ["Landscaping"],
+    "worksWith": [2, 3, 4],
+    "unit": "Hour",
+    "price": 75
+  },
+  {
+    "id": 5,
+    "name": "Roofing",
+    "description": "Installation and repair of roofs",
+    "category": ["Construction", "Roofing"],
+    "worksWith": [1, 2, 5],
+    "unit": "Square Foot",
+    "price": 25
+  },
+  {
+    "id": 6,
+    "name": "Concrete Cutting",
+    "description": "Cutting and drilling of concrete",
+    "category": ["Construction", "Concrete"],
+    "worksWith": [2, 3, 5],
+    "unit": "Linear Foot",
+    "price": 18
+  },
+  {
+    "id": 7,
+    "name": "Asphalt Paving",
+    "description": "Paving of asphalt surfaces",
+    "category": ["Construction", "Asphalt"],
+    "worksWith": [1, 2, 4],
+    "unit": "Square Yard",
+    "price": 75
+  },
+  {
+    "id": 8,
+    "name": "Plumbing",
+    "description": "Installation and repair of pipes, fittings, and fixtures",
+    "category": ["Plumbing"],
+    "worksWith": [2, 4, 5],
+    "unit": "Hour",
+    "price": 85
+  },
+  {
+    "id": 9,
+    "name": "Electrical",
+    "description": "Installation and repair of electrical systems and equipment",
+    "category": ["Electrical"],
+    "worksWith": [3, 4, 5],
+    "unit": "Hour",
+    "price": 85
+  },
+  {
+    "id": 10,
+    "name": "Land Clearing",
+    "description": "Removal of trees, brush, and other vegetation",
+    "category": ["Landscaping"],
+    "worksWith": [1, 2, 3],
+    "unit": "Acre",
+    "price": 1500
+  },
+  {
+    "id": 11,
+    "name": "Landscape Design",
+    "description": "Planning and design of outdoor spaces",
+    "category": ["Landscaping"],
+    "worksWith": [1, 2, 3],
+    "unit": "Project",
+    "price": 2500
+  },
+  {
+    "id": 12,
+    "name": "Irrigation System Installation",
+    "description": "Installation of systems to supply water to plants",
+    "category": ["Landscaping"],
+    "worksWith": [1, 2, 3],
+    "unit": "Zone",
+    "price": 150
+  },
+  {
+    "id": 13,
+    "name": "Tree Planting",
+    "description": "Planting of trees",
+    "category": ["Landscaping"],
+    "worksWith": [1, 2, 3],
+    "unit": "Tree",
+    "price": 200
+  },
+  {
+    "id": 14,
+    "name": "Lawn Maintenance",
+    "description": "Mowing, fertilizing, and other maintenance services for lawns",
+    "category": ["Landscaping"],
+    "worksWith": [1, 2, 3],
+    "unit": "Service",
+    "price": 100
+  },
+  {
+    "id": 15,
+    "name": "Snow Removal",
+    "description": "Clearing of snow from driveways, walkways, and parking lots",
+    "category": ["Landscaping"],
+    "worksWith": [1, 2, 3],
+    "unit": "Hour",
+    "price": 75
+  }
+]

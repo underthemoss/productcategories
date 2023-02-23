@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "productId": 3,
+    "name": "Trenching Bucket",
+    "category": ["Construction", "Excavation", "Attachments"],
+    "count": 10,
+    "inventoryLocation": {
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipcode": "12345"
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 2,
+    "productId": 5,
+    "name": "Rock Bucket",
+    "category": ["Construction", "Excavation", "Attachments"],
+    "count": 10,
+    "inventoryLocation": {
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipcode": "12345"
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 3,
+    "productId": 4,
+    "name": "24 Inch Trenching Bucket",
+    "category": ["Construction", "Excavation", "Attachments"],
+    "count": 10,
+    "inventoryLocation": {
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipcode": "12345"
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 4,
+    "productId": 6,
+    "name": "Skid Steer Bucket",
+    "category": ["Construction", "Excavation", "Attachments"],
+    "count": 10,
+    "inventoryLocation": {
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipcode": "12345"
+    },
+    "businessUnit": "Retail"
+  }
+]

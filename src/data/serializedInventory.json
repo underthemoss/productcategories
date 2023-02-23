@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "productName": "Kubota excavator",
+    "serialNumber": "KV2844",
+    "location": {
+      "address": "123 Main St",
+      "latitude": 39.743943,
+      "longitude": -104.991531
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 2,
+    "productId": 1,
+    "productName": "Kubota excavator",
+    "serialNumber": "KV4583",
+    "location": {
+      "address": "456 Elm St",
+      "latitude": 39.742697,
+      "longitude": -104.987361
+    },
+    "businessUnit": "Service"
+  },
+  {
+    "id": 3,
+    "productId": 1,
+    "productName": "Kubota excavator",
+    "serialNumber": "KV6319",
+    "location": {
+      "address": "789 Oak St",
+      "latitude": 39.745214,
+      "longitude": -104.995118
+    },
+    "businessUnit": "Rental"
+  },
+  {
+    "id": 4,
+    "productId": 2,
+    "productName": "Caterpillar bulldozer",
+    "serialNumber": "CB2947",
+    "location": {
+      "address": "246 Maple Ave",
+      "latitude": 39.745607,
+      "longitude": -104.996384
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 5,
+    "productId": 2,
+    "productName": "Caterpillar bulldozer",
+    "serialNumber": "CB5672",
+    "location": {
+      "address": "135 Walnut St",
+      "latitude": 39.744872,
+      "longitude": -104.989646
+    },
+    "businessUnit": "Service"
+  },
+  {
+    "id": 6,
+    "productId": 2,
+    "productName": "Caterpillar bulldozer",
+    "serialNumber": "CB8231",
+    "location": {
+      "address": "789 Oak St",
+      "latitude": 39.745898,
+      "longitude": -104.990282
+    },
+    "businessUnit": "Rental"
+  },
+  {
+    "id": 7,
+    "productId": 3,
+    "productName": "Excavator Bucket",
+    "serialNumber": "EB1234",
+    "location": {
+      "address": "456 Elm St",
+      "latitude": 39.746533,
+      "longitude": -104.995492
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 8,
+    "productId": 3,
+    "productName": "Excavator Bucket",
+    "serialNumber": "EB5678",
+    "location": {
+      "address": "789 Oak St",
+      "latitude": 39.746292,
+      "longitude": -104.990806
+    },
+    "businessUnit": "Service"
+  },
+  {
+    "id": 9,
+    "productId": 3,
+    "productName": "Excavator Bucket",
+    "serialNumber": "EB9012",
+    "location": {
+      "address": "123 Main St, Anytown, USA",
+      "latitude": 39.743943,
+      "longitude": -104.991531
+    },
+    "businessUnit": "Rental"
+  },
+  {
+    "id": 10,
+    "productId": 4,
+    "productName": "Excavator Rock Hammer",
+    "serialNumber": "ERH3456",
+    "location": {
+      "address": "246 Maple Ave, Anytown, USA",
+      "latitude": 39.745607,
+      "longitude": -104.996384
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 11,
+    "productId": 4,
+    "productName": "Excavator Rock Hammer",
+    "serialNumber": "ERH7890",
+    "location": {
+      "address": "135 Walnut St, Anytown, USA",
+      "latitude": 39.744872,
+      "longitude": -104.989646
+    },
+    "businessUnit": "Service"
+  },
+  {
+    "id": 12,
+    "productId": 4,
+    "productName": "Excavator Rock Hammer",
+    "serialNumber": "ERH1234",
+    "location": {
+      "address": "456 Elm St, Anytown, USA",
+      "latitude": 39.745214,
+      "longitude": -104.995118
+    },
+    "businessUnit": "Rental"
+  },
+
+  {
+    "id": 13,
+    "productId": 1,
+    "serialNumber": "KV97658",
+    "location": {
+      "address": "123 Main St, Anytown, USA",
+      "latitude": 39.743943,
+      "longitude": -104.991531
+    },
+    "businessUnit": "Rental"
+  },
+  {
+    "id": 14,
+    "productId": 1,
+    "serialNumber": "KV86860",
+    "location": {
+      "address": "456 Park Ave, Anytown, USA",
+      "latitude": 39.742697,
+      "longitude": -104.987361
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 15,
+    "productId": 1,
+    "serialNumber": "KV45431",
+    "location": {
+      "address": "789 Elm St, Anytown, USA",
+      "latitude": 39.745214,
+      "longitude": -104.995118
+    },
+    "businessUnit": "Service"
+  },
+
+  {
+    "id": 16,
+    "productId": 2,
+    "serialNumber": "CB75468",
+    "location": {
+      "address": "246 Oak St, Anytown, USA",
+      "latitude": 39.745607,
+      "longitude": -104.996384
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 17,
+    "productId": 2,
+    "serialNumber": "CB94020",
+    "location": {
+      "address": "369 Maple Ave, Anytown, USA",
+      "latitude": 39.744872,
+      "longitude": -104.989646
+    },
+    "businessUnit": "Service"
+  },
+  {
+    "id": 18,
+    "productId": 2,
+    "serialNumber": "CB65793",
+    "location": {
+      "address": "135 Cedar St, Anytown, USA",
+      "latitude": 39.745898,
+      "longitude": -104.990282
+    },
+    "businessUnit": "Rental"
+  },
+
+  {
+    "id": 19,
+    "productId": 6,
+    "serialNumber": "CL45879",
+    "location": {
+      "address": "567 Pine St, Anytown, USA",
+      "latitude": 39.746533,
+      "longitude": -104.995492
+    },
+    "businessUnit": "Retail"
+  },
+  {
+    "id": 20,
+    "productId": 6,
+    "serialNumber": "CL20312",
+    "location": {
+      "address": "789 Walnut St, Anytown, USA",
+      "latitude": 39.746292,
+      "longitude": -104.990806
+    },
+    "businessUnit": "Service"
+  },
+  {
+    "id": 21,
+    "productId": 7,
+    "serialNumber": "CL69352",
+    "location": {
+      "address": "246 Elm St, Anytown, USA",
+      "latitude": 39.74662,
+      "longitude": -104.992813
+    },
+    "businessUnit": "Rental"
+  }
+]

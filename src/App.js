@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ProductSidebar from "./components/ProductSidebar";
+import ProductDetails from "./components/ProductDetails";
+import RightSidebar from "./components/rightSideBar.js";
+
+import "./App.css";
+import physicalProducts from "./data/physicalProducts.json";
 
 function App() {
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const handleProductClick = (product) => {
+    setSelectedProduct(product);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="sidebar">
+        <ProductSidebar
+          products={physicalProducts}
+          selectedProduct={selectedProduct}
+          onProductClick={handleProductClick}
+        />
+      </div>
+      <div className="main">
+        <ProductDetails selectedProduct={selectedProduct} />
+        <RightSidebar selectedProduct={selectedProduct} />
+      </div>
     </div>
   );
 }
