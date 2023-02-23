@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import serializedInventory from "../data/serializedInventory.json";
 import nonSerializedInventory from "../data/nonSerializedInventory.json";
+import products from "../data/physicalProducts.json";
 
 function RightSidebar({ selectedProduct }) {
   const [inventory, setInventory] = useState([]);
@@ -45,7 +46,9 @@ function RightSidebar({ selectedProduct }) {
                     margin: "0.5em 0",
                   }}
                 >
-                  Product ID: {item.productId}
+                  Product:{" "}
+                  {products.find((p) => p.id === item.productId)?.name ||
+                    "Unknown"}
                 </p>
                 <p
                   style={{
