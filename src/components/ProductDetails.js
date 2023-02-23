@@ -23,15 +23,15 @@ function ProductDetails({ selectedProduct }) {
   }, [selectedProduct]);
 
   return (
-    <div>
+    <div className="section">
       {selectedProduct ? (
         <div>
-          <div className="section">
+          <div>
             <div className="section-title">Product Category:</div>
             <div className="section-content">{category.join(" > ")}</div>
           </div>
           {worksWith.length > 0 && (
-            <div className="section">
+            <div>
               <div className="section-title">Works with:</div>
               <div className="section-content">
                 <ul>
@@ -43,8 +43,8 @@ function ProductDetails({ selectedProduct }) {
             </div>
           )}
           {purpose.length > 0 && (
-            <div className="section">
-              <div className="section-title">Purpose:</div>
+            <div>
+              <div className="section-title">Purpose: service products:</div>
               <div className="section-content">
                 <ul>
                   {purpose.map((p) => (

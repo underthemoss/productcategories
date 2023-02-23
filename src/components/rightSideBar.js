@@ -46,7 +46,7 @@ function RightSidebar({ selectedProduct }) {
                     margin: "0.5em 0",
                   }}
                 >
-                  Product:{" "}
+                  Name:{" "}
                   {products.find((p) => p.id === item.productId)?.name ||
                     "Unknown"}
                 </p>
