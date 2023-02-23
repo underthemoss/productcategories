@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import physicalProducts from "../data/physicalProducts.json";
 import _serviceProducts from "../data/serviceProducts.json";
-import RightSidebar from "./rightSideBar";
 
 function ProductDetails({ selectedProduct }) {
   const [worksWith, setWorksWith] = useState([]);
