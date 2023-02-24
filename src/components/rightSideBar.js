@@ -29,7 +29,7 @@ function RightSidebar({ selectedProduct }) {
   };
 
   return (
-    <div className="right-sidebar">
+    <div className="section right-sidebar-section">
       <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>Inventory:</h2>
       <ul style={{ listStyle: "none", padding: 0 }}>
         {inventory.map((item) => (

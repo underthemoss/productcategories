@@ -1,29 +1,43 @@
 import React, { useEffect, useState } from "react";
-import _workers from "../data/workers.json";
+import workers from "../data/workers.json";
+import serviceProducts from "../data/serviceProducts.json";
 
 function Worker({ selectedProduct }) {
-  const [workers, setWorkers] = useState([]);
+  const [matchingWorkers, setMatchingWorkers] = useState([]);
 
   useEffect(() => {
     if (selectedProduct) {
-      const matchingWorkers = _workers.filter((worker) =>
+      const matchingWorkers = workers.filter((worker) =>
         selectedProduct.purpose.some((skillId) =>
           worker.skills.includes(skillId.toString())
         )
       );
-      setWorkers(matchingWorkers);
+      setMatchingWorkers(matchingWorkers);
+    } else {
+      setMatchingWorkers([]);
     }
   }, [selectedProduct]);
 
   return (
-    <div className="middle-column">
+    <div className="section worker-section">
       <h2>Workers:</h2>
       <ul>
-        {workers.map((worker) => (
+        {matchingWorkers.map((worker) => (
           <li key={worker.id}>
             <p>Name: {worker.name}</p>
             <p>ID: {worker.id}</p>
-            <p>Skills: {worker.skills.join(", ")}</p>
+            <p className="skills">
+              Skills:{" "}
+              {worker.skills
+                .map((skill) => {
+                  const serviceProduct = serviceProducts.find(
+                    (product) => product.id === Number(skill)
+                  );
+
+                  return serviceProduct ? serviceProduct.name : "";
+                })
+                .join(", ")}
+            </p>
           </li>
         ))}
       </ul>

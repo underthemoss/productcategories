@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import ProductSidebar from "./components/ProductSidebar";
 import ProductDetails from "./components/ProductDetails";
-import RightSidebar from "./components/rightSideBar.js";
+import RightSidebar from "./components/rightSideBar";
+import Worker from "./components/worker";
 
 import "./App.css";
 import physicalProducts from "./data/physicalProducts.json";
@@ -15,17 +16,36 @@ function App() {
 
   return (
     <div className="container">
-      <div className="sidebar">
-        <ProductSidebar
-          products={physicalProducts}
-          selectedProduct={selectedProduct}
-          onProductClick={handleProductClick}
-        />
-      </div>
-      <div className="main">
-        <ProductDetails selectedProduct={selectedProduct} />
-        <RightSidebar selectedProduct={selectedProduct} />
-      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <div className="sidebar">
+                <ProductSidebar
+                  products={physicalProducts}
+                  selectedProduct={selectedProduct}
+                  onProductClick={handleProductClick}
+                />
+              </div>
+            </td>
+            <td>
+              <div className="product-details-container">
+                <ProductDetails selectedProduct={selectedProduct} />
+              </div>
+            </td>
+            <td>
+              <div className="worker-container">
+                <Worker selectedProduct={selectedProduct} />
+              </div>
+            </td>
+            <td>
+              <div className="right-sidebar-container">
+                <RightSidebar selectedProduct={selectedProduct} />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }

@@ -23,7 +23,7 @@ function ProductDetails({ selectedProduct }) {
   }, [selectedProduct]);
 
   return (
-    <div className="section">
+    <div className="product-details-container">
       {selectedProduct ? (
         <div>
           <div>
@@ -33,7 +33,7 @@ function ProductDetails({ selectedProduct }) {
           {worksWith.length > 0 && (
             <div>
               <div className="section-title">Works with:</div>
-              <div className="section-content">
+              <div className="section-content-workswith">
                 <ul>
                   {worksWith.map((p) => (
                     <li key={p.id}>{p.name}</li>
