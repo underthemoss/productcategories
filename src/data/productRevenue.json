@@ -1,0 +1,37 @@
+[
+  {
+    "productId": 1,
+    "inventoryId": 1,
+    "monthlyRevenue": 4456
+  },
+  {
+    "productId": 2,
+    "inventoryId": 4,
+    "monthlyRevenue": 2350
+  },
+  {
+    "productId": 3,
+    "inventoryId": 2,
+    "monthlyRevenue": 1980
+  },
+  {
+    "productId": 4,
+    "inventoryId": 5,
+    "monthlyRevenue": 3300
+  },
+  {
+    "productId": 5,
+    "inventoryId": 3,
+    "monthlyRevenue": 1200
+  },
+  {
+    "productId": 6,
+    "inventoryId": 6,
+    "monthlyRevenue": 5700
+  },
+  {
+    "productId": 7,
+    "inventoryId": 7,
+    "monthlyRevenue": 3100
+  }
+]

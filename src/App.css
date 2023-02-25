@@ -53,6 +53,37 @@ td:nth-child(3) {
 .section-content-workswith ul li {
   color: #e38d01; /* light blue color */
 }
+.financials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  border: 2px solid #66bb6a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(102, 187, 106, 0.3);
+  padding: 5px;
+  margin: 5px;
+}
+
+.monthly-revenue,
+.inventory-roi {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+}
+
+.revenue-title,
+.roi-title {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.revenue-value,
+.roi-value {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
 
 .sidebar {
   flex: 0 0 300px;

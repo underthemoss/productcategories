@@ -14,7 +14,6 @@ function RightSidebar({ selectedProduct }) {
     const nonSerializedInventoryForProduct = selectedProduct
       ? nonSerializedInventory.filter((i) => i.productId === selectedProduct.id)
       : [];
-    console.log("Non-serialized inventory:", nonSerializedInventoryForProduct);
 
     const matchingInventory = [
       ...serializedInventoryForProduct,

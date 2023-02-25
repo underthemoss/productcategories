@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import physicalProducts from "../data/physicalProducts.json";
 import _serviceProducts from "../data/serviceProducts.json";
+import inventoryData from "../data/serializedInventory.json";
+import nonSerializedInventoryData from "../data/nonSerializedInventory.json";
+import Financial from "./financials";
 
 function ProductDetails({ selectedProduct }) {
   const [worksWith, setWorksWith] = useState([]);
@@ -57,6 +60,11 @@ function ProductDetails({ selectedProduct }) {
               </div>
             </div>
           )}
+          <Financial
+            selectedProduct={selectedProduct}
+            inventoryData={inventoryData}
+            nonSerializedInventoryData={nonSerializedInventoryData}
+          />
         </div>
       ) : (
         <div>Select a product</div>
