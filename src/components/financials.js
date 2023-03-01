@@ -57,9 +57,9 @@ function Financial({
 
   const inventoryCount = matchingInventoryItems.length;
 
-  const nonSerializedInventoryROI = nonSerializedInventoryCount
-    ? (monthlyRevenue * 12) / (1200 * inventoryCount)
-    : 0;
+  // const nonSerializedInventoryROI = nonSerializedInventoryCount
+  //  ? (monthlyRevenue * 12) / (1200 * inventoryCount)
+  // : 0;
 
   const inventoryROI = inventoryCount
     ? (monthlyRevenue * 12) / (40000 * inventoryCount)
